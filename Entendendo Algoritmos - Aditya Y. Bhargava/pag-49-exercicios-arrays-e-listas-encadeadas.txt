@@ -1,0 +1,15 @@
+# pag.49 exercícios arrays e listas encadeadas
+
+# 2.2 
+Lista encadeada é a melhor escolha para a implementação de uma lista de pedidos em um aplicativo de restaurante, a qual os garçons adicionam pedidos no final da fila e os chefes retiram do começo, pois, adicionar e remover na lista encadeada não necessita realocar a memória ou movimentar os elementos.
+
+# 2.3
+Para suportar uma pesquisa binária eficiente, a lista de usuários do Facebook deveria ser implementada como um array. Eles são adequados para armazenar dados ordenados e permitir pesquisas rápidas. Arrays permitem acesso aleatório em tempo constante, pois seus elementos estão armazenados de forma contígua na memória. Isso significa que podemos acessar diretamente qualquer índice, facilitando a implementação da pesquisa binária.
+
+# 2.4 
+A maior desvantagem de usar um array para armazenar usuários, é o alto custo das inserções que podem exigir a movimentação de elementos e realocação de memória. Arrays têm tamanho fixo e quando ele atinge sua capacidade máxima, precisa ser alocado um novo de maior tamanho, e todos os elementos do array antigo precisam ser copiados para o novo array.
+
+Quando novos usuários se inscrevem, seus nomes precisam ser inseridos na lista de maneira ordenada, para que a pesquisa binária continue a funcionar. No array, todos os elementos subsequentes ao novo usuário terão que ser deslocados para abrir espaço.
+
+# 2.5 
+A estrutura híbrida oferece um desempenho melhor em inserções e eliminações, especialmente porque cada lista encadeada individual é muito menor e ela oferece flexibilidade para inserções e eliminações sem os problemas de realocação e movimentação de elementos.
