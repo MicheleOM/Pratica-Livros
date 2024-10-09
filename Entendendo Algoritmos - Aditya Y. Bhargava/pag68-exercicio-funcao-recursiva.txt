@@ -1,0 +1,5 @@
+# exercicio 3.2
+Suponha que você acidentalmente escreva uma função recursiva que que executando infinitamente. Como você viu, seu computador aloca memória na pilha para cada chamada de função. O que acontece com a pilha quando a função recursiva fica executando infinitamente?
+
+Quando uma função recursiva entra em um loop infinito, o computador continua alocando memória na pilha para cada nova chamada da função. Como a pilha tem um limite de memória, ela eventualmente fica cheia, causando um erro de Stack Overflow, que faz o programa terminar abruptamente. Isso acontece porque o sistema não consegue mais alocar memória para as novas chamadas recursivas.
+
